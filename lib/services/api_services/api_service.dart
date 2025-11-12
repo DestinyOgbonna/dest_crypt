@@ -9,6 +9,7 @@ final Dio _destCryptClient = Dio(BaseOptions());
 
 class DestCryptAPi {
   final baseUrl = dotenv.get('BASE_URL');
+  
   final apiKey = dotenv.get('API_KEY');
 
   Future<(String?, Map<String, dynamic>)> post({
