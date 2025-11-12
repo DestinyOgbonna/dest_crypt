@@ -1,0 +1,42 @@
+name: dest_crypt
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  animate_do: ^4.2.0
+  animated_text_kit: ^4.3.0
+  cupertino_icons: ^1.0.8
+  dio: ^5.9.0
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^5.0.0
+  gap: ^3.0.1
+  get_it: ^9.0.5
+  intl: ^0.20.2
+  provider: ^6.1.5+1
+  skeletonizer: ^2.1.0+1
+  syncfusion_flutter_charts: ^31.2.10
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - .env
+ 
+  fonts:
+    - family: CourierNew
+      fonts:
+        - asset: assets/fonts/cour.ttf
